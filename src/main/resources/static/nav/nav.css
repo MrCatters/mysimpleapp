@@ -1,0 +1,61 @@
+/* Sets the formatting of the nav bar */
+nav {
+    display: flex;
+    background-color: #ffffff;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sets the formatting of the nav bar links */
+nav > a {
+    display: inline;
+    padding: 0 1rem;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: underline;
+    width: fit-content;
+}
+
+/* Applies formatting only to the About link */
+#about-drop-down {
+    display: inline;
+    padding: 0 1rem;
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 50px;
+    text-decoration: underline;
+    width: fit-content;
+    cursor: default !important;
+}
+
+/* Sets the formatting of the image on the nav bar. */
+#logo {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+/* Sets the formatting of the drop down menu. */
+#about-drop-down-content {
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    background: white;
+    margin-top: 208px;
+    margin-left: 850px;
+}
+
+/* Pads out the contents of the drop down menu. */
+#about-drop-down-content > a{
+    padding: 15px;
+}
+
+/* Sets the formatting of the chevron. */
+#chevron {
+    position: relative;
+    max-height: 20px;
+    right: 40px;
+    pointer-events : none;
+    transform: rotate(180deg);
+}

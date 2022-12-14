@@ -1,0 +1,50 @@
+/* Picture that is under the header. */
+.top-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(172, 148, 81, 0.58), rgba(0, 0, 0, 0.3)), url("../images/lighthouseCropped.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    background-size: cover;
+    
+}
+
+/* Sets the formatting of the header on top of the image. */
+#title {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+/* Sets the formatting of the sub title on top of the image. */
+#sub-title {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 80px;
+}
+
+/* Places the paragraph in a flex box and centers it. */
+#investment-strategies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+
+/* Formats the paragraph. */
+.paragraphs>span {
+    display: inline-block;
+    font-size: large;
+    margin-top: 30px;
+    max-width: 1200px;
+}

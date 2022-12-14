@@ -1,0 +1,63 @@
+/* Picture that is under the header. */
+.top-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(172, 148, 81, 0.58), rgba(0, 0, 0, 0.3)), url("../images/lighthouseCropped.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    background-size: cover;
+}
+
+/* Sets the formatting of the header on top of the image. */
+.top-picture>span {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* Sets the formatting of the stock form. */
+#stock-forum {
+    margin: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sets the formatting of the text on the top of the form. */
+#stock-forum > div {
+    font-size: 30px;
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* Sets the formatting of the input box. */
+#stock-forum > input[type = "text"] {
+    display: inline-block;
+    height: 30px;
+    width: 370px;
+    font-size: 20px;
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: left;
+    
+}
+
+/* Sets the formatting of the submit button. */
+#stock-forum > input[type = "submit"] {
+    display: inline-block;
+    height: 30px;
+    margin: 10px;
+    width: 70px;
+    font-size: 20px;
+    grid-row: 2;
+    grid-column-start: 1;
+    justify-self: right;
+}
